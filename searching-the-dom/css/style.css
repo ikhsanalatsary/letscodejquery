@@ -1,0 +1,26 @@
+#parent {
+   display: block;
+   margin-top: 1em;
+   margin-bottom: 1 em;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 40px;
+   list-style: lower-alpha;
+}
+
+#other {
+  color: green;
+  font-size: 20px;
+  list-style: disc;
+  text-transform: capitalize;
+}
+
+article {
+  padding: 10px 15px;
+  background-color: bisque;
+  margin: 10px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
