@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background: #fafafa
+}
+
+.wrapper {
+  display: inline-block;
+  margin: 0 2em;
+  padding: 50px 3px;
+  list-style: none;
+  width: 300px;
+  height: auto;
+  border: 1px solid blue;
+  background: #fff;
+  border-radius: 8px;
+}
+
+li {
+  padding: 0 20px;
+  margin: 15px 20px;
+  text-align: center
+}
+
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.room {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+div {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+button {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px 8px;
+/*  background-color: #9de2f9;*/
+  background: #1ba0e2;
+  border-radius: 20%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: #7bd6f5;
+  cursor: pointer;
+}
+
+.room p {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px 8px;
+/*  background-color: #9de2f9;*/
+  background: #1ba0e2;
+  border-radius: 20%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
+p:hover{
+  background-color: #7bd6f5;
+  cursor:pointer;
+}
+
+.hotel {
+  margin-top: 10px;
+  clear: both;
+}
+
+.highlighted {
+  background: #3FBF7F;
+}
+
+#filter {
+  display: inline-flex;
+  background: #aaa;
+  float: right;
+  padding: 10px;
+  margin: 5px 180px 15px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#filter button {
+  margin: 5px 10px;
+  padding: 5px 25px;
+}
