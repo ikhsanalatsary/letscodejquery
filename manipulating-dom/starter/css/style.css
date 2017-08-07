@@ -21,6 +21,11 @@ li {
   text-align: center
 }
 
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .room {
   text-transform: uppercase;
   font-size: 14px;
@@ -35,7 +40,30 @@ h1 {
   text-transform: uppercase;
 }
 
+h3 {
+  text-transform: capitalize;
+}
+
 button {
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px 8px;
+/*  background-color: #9de2f9;*/
+  background: #1ba0e2;
+  border-radius: 20%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: #7bd6f5;
+  cursor: pointer;
+}
+
+.room p {
   width: 100%;
   margin-top: 100px;
   padding: 10px 8px;
@@ -48,7 +76,7 @@ button {
   color: #fff;
 }
 
-button:hover{
+p:hover{
   background-color: #7bd6f5;
-  cursor: pointer;
+  cursor:pointer;
 }
