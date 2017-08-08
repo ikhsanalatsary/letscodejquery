@@ -12,12 +12,12 @@ $(document).ready(function() {
 
   $('#filter').on('click', '.promo-filter', function() {
     $('.highlighted').removeClass('highlighted');
-    $('.wrapper').filter('.promo').addClass('highlighted');
+    $('.room').filter('.promo').addClass('highlighted');
   });
 
   $('#filter').on('click', '.end-promo-filter', function() {
     $('.highlighted').removeClass('highlighted');
-    $('.wrapper').filter('.end-promo').addClass('highlighted');
+    $('.room').filter('.end-promo').addClass('highlighted');
   });
 
 });

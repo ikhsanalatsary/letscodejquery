@@ -5,7 +5,7 @@ $(document).ready(function() {
   // delay execution dalam 3 detik
   setTimeout(function() {
     // Tambahkan  element paragraph harga
-    $('.detail').append(harga);
+    $('.room').append(harga);
 
     // kemudian remove button nya
     $('button').remove();
