@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background: #fafafa
+}
+
+.room {
+  display: inline-block;
+  margin: 0 2em;
+  padding: 50px 3px;
+  list-style: none;
+  width: 300px;
+  height: auto;
+  border: 1px solid blue;
+  background: #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+li {
+  padding: 0 20px;
+  margin: 15px 20px !important;
+  text-align: center
+}
+
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.show-more {
+  list-style: none;
+  margin-left: -30px;
+  text-align: left;
+  display: none;
+}
+
+div {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+.room button {
+  width: 200px;
+  margin: 50px 50px 0;
+  padding: 10px 0;
+/*  background-color: #9de2f9;*/
+  background: #1ba0e2;
+  border-radius: 20%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+button:hover{
+  background-color: #7bd6f5;
+  cursor: pointer;
+}
+
+.room p {
+  width: 200px;
+  margin: 50px 50px 16px;
+  padding: 10px 0;
+/*  background-color: #9de2f9;*/
+  background: #1ba0e2;
+  border-radius: 20%;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
+p:hover{
+  background-color: #7bd6f5;
+  cursor:pointer;
+}

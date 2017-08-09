@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #fafafa
+}
+
+div {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: capitalize;
+}
