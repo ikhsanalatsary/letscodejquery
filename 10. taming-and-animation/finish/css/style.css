@@ -16,10 +16,10 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   position: relative;
-  /*-webkit-transition: top 1s;
+  -webkit-transition: top 1s;
   -moz-transition: top 1s;
   -o-transition: top 1s;
-  transition: top 1s;*/
+  transition: top 1s;
 }
 
 li {
@@ -91,6 +91,9 @@ p:hover{
 }
 
 .highlighted {
+/*
   background-color: #3F7FBF;
   border-color: 1px solid #967;
+*/
+  top: -10px;
 }

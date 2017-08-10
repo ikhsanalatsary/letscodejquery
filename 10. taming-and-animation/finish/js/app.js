@@ -26,11 +26,11 @@ $(document).ready(function() {
     $(this).toggleClass('highlighted');
     // $(this).animate({'top': '-20px'});
 
-    if ($(this).hasClass('highlighted')) {
-      $(this).animate({'top': '-20px'}, '400');
-    } else {
-      $(this).animate({'top': '0px'});
-    }
+    // if ($(this).hasClass('highlighted')) {
+    //   $(this).animate({'top': '-20px'}, '400');
+    // } else {
+    //   $(this).animate({'top': '0px'});
+    // }
 
 
     $(this).find('.show-more').show();
