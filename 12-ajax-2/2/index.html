@@ -1,0 +1,28 @@
+bali<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+  </head>
+
+  <body>
+
+
+    <script type="text/javascript">
+
+      function Vacation(destination) {
+        var destination = destination;
+        this.details = function() {
+          console.log("This vacation is to " + destination);
+        }
+      }
+
+      $(document).ready(function() {
+        var bali = new Vacation('Bali');
+        bali.details();
+        console.log(bali.destination);
+
+        var lombok = new Vacation('Lombok');
+        lombok.details();
+      });
+    </script>
+  </body>
+</html>
