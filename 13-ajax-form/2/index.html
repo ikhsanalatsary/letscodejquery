@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>jQuery Air Atlantic - Chapter 3-1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      #vacation input[type=submit] {
+        padding-right: 11px;
+      }
+      #vacation.is-loading input[type=submit] {
+        background: url(images/ajax-loader.gif) no-repeat right;
+      }
+    </style>
+  </head>
+  <body class="inner">
+
+    <h1>jQuery Travels - Trip Booker</h1>
+
+    <div id='vacation'>
+      <form action='book.html' method='GET'>
+        <p>
+          <label for='destination'>Destination:</label>
+          <select id='destination' name='destination'>
+            <option>Select a Destination</option>
+            <option value='hawaii' data-price='199'>Hawaii</option>
+            <option value='paris' data-price='299'>Paris</option>
+            <option value='london' data-price='399'>London</option>
+          </select>
+        </p>
+        <p>
+          <label for='quantity'>Tickets:</label>
+          <input type='text' class='quantity' id='quantity' name='quantity' value='1' />
+        </p>
+
+        <p><input type='submit' value='Book Trip' /></p>
+      </form>
+    </div>
+
+    <p class="featured">Call us at 021-25937 to make a reservation today!</p>
+    
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/ajax-shim.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
