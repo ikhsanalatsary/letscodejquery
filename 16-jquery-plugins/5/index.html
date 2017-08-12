@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>jQuery Air Atlantic - Chapter 5-5 Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      .is-showing-price button {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class='inner chapter4-4'>
+
+    <h1>jQuery Travels - Vacation Packages</h1>
+
+    <div id='vacations'>
+      <h2>Packages</h2>
+      <ul id="filters">
+        <li><a href='#' class='show-prices'>Show All Prices</a></li>
+      </ul>
+
+      <ul>
+        <li class="vacation onsale" data-price='399'>
+          <h3>Hawaiian Vacation</h3>
+          <button>Show Price</button>
+          <a href='#' class='remove-vacation'>Not Interested</a>
+        </li>
+        <li class="vacation expiring" data-price='749'>
+          <h3>European Getaway</h3>
+          <button>Show Price</button>
+          <a href='#' class='remove-vacation'>Not Interested</a>
+        </li>
+        <li class="vacation" data-price='859'>
+          <h3>Visit Japan</h3>
+          <button>Show Price</button>
+          <a href='#' class='remove-vacation'>Not Interested</a>
+        </li>
+      </ul>
+    </div>
+
+    <p class="featured">Call us at 021-25937 to make a reservation today!</p>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/priceify.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
